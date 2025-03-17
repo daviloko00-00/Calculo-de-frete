@@ -14,7 +14,7 @@ while (true) { // cria -se um loop para que o usuário possa escolher entre as o
             valor = valor * quilometro;
         } else if (urg == "s") {
             urg = true;
-            valor = (valor * quilometro) * 0.2; // caso a viagem seja urgente, o valor da viagem terá um acréscimo de 20% no valor final;
+            valor = (valor * quilometro) * 0.2 + valor * quilometro; // caso a viagem seja urgente, o valor da viagem terá um acréscimo de 20% no valor final;
         }
 
         let cliente = {// criado um objeto com as informações do cliente, deixando a informação final da lista mais organizada;
