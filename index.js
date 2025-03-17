@@ -8,7 +8,7 @@ while (true) { // cria -se um loop para que o usuário possa escolher entre as o
         let nqme = prompt("Qual o nome do cliente?");
         let endereco = prompt("Qual o endereço do cliente?");
         let quilometro = parseFloat(prompt("Quantos quilômetros o cliente deseja percorrer?"));
-        let urg = prompt("O cliente possui urgência na entrega de sua encomenda?\n    Sim (s)\n    Não (n)"); // caso neessário, o usuário pode escolher se a viagem é urgente ou não, criando duas opções, sim ou não;
+        let urg = prompt("O cliente possui urgência na entrega de sua encomenda?\n    Sim (s)\n    Não (n)"); // caso necessário, o usuário pode escolher se a viagem é urgente ou não, criando duas opções, sim ou não;
         if (urg == "n") {
             urg = false;
             valor = valor * quilometro;
